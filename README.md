@@ -1,5 +1,7 @@
 # mapfan-agent
 
+[![Test](https://github.com/geolonia/mapfan-agent/actions/workflows/test.yml/badge.svg)](https://github.com/geolonia/mapfan-agent/actions/workflows/test.yml)
+
 CLI tool for MapFan geospatial AI agent services. Query geocoding, POI search, and routing via natural language.
 
 mapfan-agentは、MapFanの地理空間AIエージェントサービスを利用するためのCLIツールです。

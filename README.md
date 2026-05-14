@@ -81,6 +81,22 @@ uv sync --dev
 uv run pytest
 ```
 
+## Repository Remotes / リモートリポジトリ
+
+This repository is mirrored between Geolonia and GeoTechnologies for joint development and hosting.
+
+| Remote | URL | Purpose |
+|--------|-----|---------|
+| `geolonia` | `git@github.com:geolonia/mapfan-agent.git` | Geolonia-managed development |
+| `geotech` | `git@github.com:GeoTechnologies-Inc-DX/mapfan-agent.git` | GeoTechnologies hosting and handoff |
+
+Push shared updates to both remotes when needed:
+
+```bash
+git push geolonia main
+git push geotech main
+```
+
 ## License
 
 MIT
